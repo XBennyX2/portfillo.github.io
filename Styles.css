@@ -1,0 +1,68 @@
+.nav{
+    display: flex;
+    justify-content:space-between;
+    border-radius: 15px;
+}
+.nav ul{
+    list-style:none;
+    padding: 45px;
+    margin: 0;
+    display: flex;
+    font-size: large;
+
+}
+.nav li{
+    margin: 0 15px;
+    padding-left: 80px;
+}
+.nav li a:hover{
+    color:rgb(88, 195, 238);
+    transition: .4s;
+}
+ 
+.nav a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+body{
+    background-color:#18222e;
+}
+
+
+
+section {
+    max-width: 90%;
+    height: 100vh;
+    margin: 20px auto;
+    margin-top: 200px;
+    padding: 20px;
+    background-color:#18222e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: aqua;
+    text-align: center ;
+    font-size: 1.7rem;
+}
+.skill-label {
+    color: white ;
+    font-weight: bold;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 30px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+}
